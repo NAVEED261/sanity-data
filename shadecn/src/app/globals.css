@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .bg-background {
+    /* Define your background styles here */
+    background-color: #ffffff; /* Example background color */
+  }
+
+  /* Define other base styles here */
+}
+
+@layer utilities {
+  .border-border {
+    /* Define your border styles here */
+    border: 1px solid #000000; /* Example border */
+  }
+
+  /* Define other utility styles here */
+}
+
+@layer base {
+  :root {
+    /* Define your custom CSS variables here */
+  }
+
+  .dark {
+    /* Define dark mode styles here */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background;
+    color: var(--foreground); /* Use custom CSS variable for text color */
+  }
+}

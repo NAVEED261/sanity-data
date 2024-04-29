@@ -1,0 +1,1 @@
+//params ek object{} ha or jis name sa uska dynamic[] page bnta ha wo params ki property hoti ha. params always run server side.params hamasha dynamic page ma hi milaga. or paramas ki value home page p link zrea di jati hakoi unique key zrea b hum data ko get krskta hain .jsa k . username, id,target etc
